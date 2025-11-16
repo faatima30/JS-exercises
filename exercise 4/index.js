@@ -9,7 +9,7 @@ console.log(add(5, 79));
 console.log(add(180, 40));  
 console.log(add(810, 230)); 
 
-// 2. basic function 
+// 2. expression function 
 const addExpression = function(a, b) {
     return a + b;
 };
