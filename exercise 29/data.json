@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "name": "fatima",
+  "city": "mogadishu",
+  "product": [{ "id": 1, "name": "mouse", "category": "tech" }]
+}
