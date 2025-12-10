@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color picker</title>
+    <style>
+      .colorPreview {
+        width: 50px;
+        height: 45px;
+        padding: 30px;
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 20px;
+        margin: 20px;
+      }
+      li {
+        padding: 10px 25px;
+        width: 50px;
+        list-style-type: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Color picker</h1>
+    <label for="colorPicker">choose a color</label>
+    <input type="color" id="colorPicker" /><br />
+    <div class="colorPreview">Color Preview</div>
+    <h2>Color history</h2>
+    <ul class="colorHistory"></ul>
+    <button class="clearHistoryButton">Clear</button>
+  </body>
+  <script src="script.js"></script>
+</html>
