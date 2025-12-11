@@ -1,0 +1,22 @@
+body{
+    background-color: #ffffff;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+button{
+      padding: 10px;
+  font-size: 15px;
+  margin: 30px;
+  background-color: #000000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+button.dark-mode{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
