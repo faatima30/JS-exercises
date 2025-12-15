@@ -1,9 +1,8 @@
-body{
-    font-family: Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
   background-color: #7ea59f;
   padding: 0;
   text-align: center;
-  
 }
 .create-post-container {
   background-color: #003b33;
@@ -18,7 +17,7 @@ body{
   margin-bottom: 20px;
 }
 
- input {
+input {
   padding: 10px;
   font-size: 13px;
   border: none;
@@ -26,7 +25,7 @@ body{
   width: 490px;
   margin-bottom: 10px;
 }
- textarea {
+textarea {
   padding: 10px;
   font-size: 13px;
   border: none;
@@ -36,16 +35,15 @@ body{
   height: 100px;
 }
 button {
-  padding: 10px ;
+  padding: 10px;
   font-size: 15px;
   background-color: #7ea59f;
   border: none;
   border-radius: 3px;
   float: left;
-
 }
-.post-list-container{
-     background-color: #003b33;
+.post-list-container {
+  background-color: #003b33;
   max-width: 500px;
   margin: 50px auto;
   padding: 30px 50px;
@@ -53,34 +51,39 @@ button {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
 }
-.post-list-container #post{
-    display: flex;
-    background-color: #7ea59f;
-     border-radius: 10px;
-     align-items: center;
-     padding: 10px 30px;
-}
-.post-list-container #post #post-img{
-    width: 140px;
-    height: 140px;
-    border-radius: 10px;
-}
-.post-list-container #post .post-text{
-    display: inline-block;
-    text-align: left;
-    padding: 0px 20px;
-    color: black;
-}
-.post-list-container #post .post-text p{
-    font-size: 12px;
-}
-.post button {
-  margin-left: 5px;
-  padding: 10px;
-  font-size: 16px;
-  margin-left: 10px;
+.post-list-container .post {
+  display: flex;
   background-color: #7ea59f;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px 30px;
+  margin-bottom: 15px;
+  align-items: center;
+  gap: 20px;
+}
+.post-list-container .post .post-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 8px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.post-list-container .post .post-text {
+  display: inline-block;
+  text-align: left;
+  color: black;
+}
+.post-list-container .post .post-text p {
+  font-size: 12px;
+}
+.post .post-text .edit-btn,
+.post .post-text .delete-btn {
+  margin-right: 5px;
+  padding: 8px 15px;
+  font-size: 12px;
+  background-color: #1c2c2a;
   border: none;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
 }
