@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e9dcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.video-player {
+  background: white;
+  width: 360px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 8px 0;
+}
+
+.progress-bar {
+  height: 6px;
+  background: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress {
+  height: 100%;
+  width: 0%;
+  background: #8b5e5e;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #666;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.controls button {
+  border: none;
+  background: none;
+  font-size: 22px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.extras {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.playlist {
+  list-style: none;
+  padding: 0;
+}
+
+.playlist-item {
+  display: flex;
+  gap: 10px;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.playlist-item img {
+  width: 70px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.playlist-item:hover {
+  background: #f2e7e7;
+}
+
+.playlist-item.active {
+  background: #8b5e5e;
+  color: white;
+}
